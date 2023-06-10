@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -24,4 +25,15 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.markdown > * {
+  all: revert;
+}
+
+@font-face {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  src: url('/fonts/segoe-ui/segoe-ui-regular.woff2') format('woff2'),
+    url('/fonts/segoe-ui/segoe-ui-regular.woff') format('woff'),
+    url('/fonts/segoe-ui/segoe-ui-regular.ttf') format('truetype');
 }
