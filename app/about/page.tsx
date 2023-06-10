@@ -7,13 +7,13 @@ export default function About() {
       <h1 className="text-5xl text-black font-bold">About</h1>
       <div className="mt-10 text-lg text-left">
         <p>
-          Hi, I'm <span className="font-bold cursor-pointer border-b-2">Lucas</span>. I'm a grade 11 student from Toronto, Canada.
-          I'm interested in software development, machine learning, and game development.
+          Hi, I&apos;m <span className="font-bold cursor-pointer border-b-2">Lucas</span>. I&apos;m a grade 11 student from Toronto, Canada.
+          I&apos;m interested in software development, machine learning, and game development.
           I participate in hackathons with friends and have won a few awards for my projects listed
           <Link href={"/projects"} className="font-bold cursor-pointer border-b-2"> here</Link>.
         </p>
         <p className="mt-4">
-          I'm currently working on a few projects, including a Spotify tool project that uses the Spotify API to do things such as aggregate temporary generated playlists to be saved.
+          I&apos;m currently working on a few projects, including a Spotify tool project that uses the Spotify API to do things such as aggregate temporary generated playlists to be saved.
         </p>
         <p className="mt-4">
           Sometimes I write stuff that I find interesting, check out some of the things I write about by clicking <Link href={"/blog"} className="font-bold cursor-pointer border-b-2"> here</Link>.
