@@ -39,7 +39,7 @@ const PostProjectPage = (props: any) => {
   
         </div>
         
-        {post.data.tags.map((tag: string) => (<span className="inline-block bg-gray-800 -my-10 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 "> {tag}</span>))}
+        {post.data.tags.map((tags: string) => (<span  className="inline-block bg-gray-800 -my-10 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 "> {tags}</span>))}
         <hr className="my-4"></hr>
       </div>
 
