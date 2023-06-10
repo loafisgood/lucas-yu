@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { PostMetadata } from "./PostMetadata";
-import {motion}from "framer-motion";
 
 const PostPreview = (props: PostMetadata) => {
   return (

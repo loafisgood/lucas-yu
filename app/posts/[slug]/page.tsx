@@ -61,7 +61,7 @@ const PostPage = (props: any) => {
                 <h1 className="text-xl font-semibold text-slate-300">{post.title}</h1>
                 <p className="text-slate-400">{post.subtitle}</p>
                 <p className="text-slate-400">{post.date}</p>
-                {post.tags.map((tag: string) => (
+                {post.tags && post.tags.map((tag: string) => (
                   <span className="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold mr-2 mt-2" key={tag}>
                     {tag}
                   </span>
