@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import { useForm } from "@formspree/react";
 
@@ -30,8 +30,8 @@ const Contact = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen border-solid border-black bg-white">
       <h1 className="text-4xl font-bold mb-6">Contact Me</h1>
-      <p className="mb-6 text-center w-1/2">If you want to contact me, please fill out the form below! If you can't reach me through this form, My e-mail is 
-      <span className="font-bold border-b-2 cursor-pointer"> lucas.loafisgood@gmail.com</span></p>
+      <p className="mb-6 text-center w-1/2">If you want to contact me, please fill out the form below! If you can't reach me through this form, My e-mail is
+        <span className="font-bold border-b-2 cursor-pointer"> lucas.loafisgood&apos;s@gmail.com</span></p>
 
       {status === "success" && (
         <p className="mb-6 text-green-600">Message sent successfully!</p>
