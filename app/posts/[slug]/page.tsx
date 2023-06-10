@@ -5,7 +5,6 @@ import Link from "next/link";
 import Markdown from "markdown-to-jsx";
 import Image from "next/image";
 
-
 const getPostContent = (slug: string) => {
   const folder = "posts/";
   const file = `${folder}${slug}.md`;
@@ -21,32 +20,32 @@ export const generateStaticParams = async () => {
   }));
 };
 
-
-
 const PostPage = (props: any) => {
   const slug = props.params.slug;
   const post = getPostContent(slug);
 
   return (
-    <div className="w-3/4 mx-auto align-center text-lg mb-12" style={{color : "#404040"}}>
+    <div className="w-3/4 mx-auto align-center text-lg mb-12" style={{ color: "#404040" }}>
       <div>
         <div className="my-12 text-left">
           <h1 className={`text-4xl font-bold`}>{post.data.title}</h1>
           <p className="text-slate-400 mt-1">{post.data.subtitle}</p>
           <p className="text-slate-400 mt-1">{post.data.date}</p>
-          {post.data.tags.map((tag: string) => (<span className="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mt-2"> {tag}</span>))}
+          {post.data.tags.map((tag: string) => (
+            <span className="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mt-2" key={tag}>
+              {tag}
+            </span>
+          ))}
           <hr className="my-2"></hr>
-          
-          <Image src={post.data.img} className="mx-auto shadow-xl my-4" style={{width: "100%"}}  alt="post image"/>
+
+          <Image src={post.data.img} className="mx-auto shadow-xl my-4" style={{ width: "100%" }} alt="post image" />
           <p className="text-black  text-base text-bold mt-1">{post.data.caption}</p>
           <hr className="my-2"></hr>
         </div>
       </div>
 
       <article className="prose">
-        <Markdown className={"markdown"}>
-            {post.content}
-        </Markdown>
+        <Markdown className={"markdown"}>{post.content}</Markdown>
       </article>
       <div>
         <hr className="my-4"></hr>
@@ -56,9 +55,9 @@ const PostPage = (props: any) => {
         </Link>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {getPostMetadata().map((post) => (
+          {getPostMetadata().map((post) => (
             <Link href={`/posts/${post.slug}`} key={post.slug}>
-              <div className="bg-gray-800 rounded-lg shadow-lg p-4 cursor-pointer hover:bg-gray-700 duration-300">
+              <div key={post.slug} className="bg-gray-800 rounded-lg shadow-lg p-4 cursor-pointer hover:bg-gray-700 duration-300">
                 <h1 className="text-xl font-semibold text-slate-300">{post.title}</h1>
                 <p className="text-slate-400">{post.subtitle}</p>
                 <p className="text-slate-400">{post.date}</p>
@@ -71,14 +70,9 @@ const PostPage = (props: any) => {
             </Link>
           ))}
         </div>
-
       </div>
-
     </div>
-
   );
 };
-
-
 
 export default PostPage;

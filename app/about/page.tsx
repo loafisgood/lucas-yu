@@ -7,16 +7,16 @@ export default function About() {
       <h1 className="text-5xl text-black font-bold">About</h1>
       <div className="mt-10 text-lg text-left">
         <p>
-          Hi, I'm <span className="font-bold cursor-pointer border-b-2">Lucas </span>. I'm a grade 11 student from Toronto, Canada.
+          Hi, I'm <span className="font-bold cursor-pointer border-b-2">Lucas</span>. I'm a grade 11 student from Toronto, Canada.
           I'm interested in software development, machine learning, and game development.
           I participate in hackathons with friends and have won a few awards for my projects listed
-          <Link href={"/projects"} className="font-bold cursor-pointer border-b-2"> here</Link>
+          <Link href={"/projects"} className="font-bold cursor-pointer border-b-2"> here</Link>.
         </p>
         <p className="mt-4">
-          I'm currently working on a few projects, including a spotify tool project that uses the spotify API to do things such as aggregate temporary generated playlists to be saved.
+          I'm currently working on a few projects, including a Spotify tool project that uses the Spotify API to do things such as aggregate temporary generated playlists to be saved.
         </p>
         <p className="mt-4">
-          Sometimes I write stuff that I find interesting, check out some of the things I write about by clicking <Link href={"/blog"} className="font-bold cursor-pointer border-b-2"> here</Link>
+          Sometimes I write stuff that I find interesting, check out some of the things I write about by clicking <Link href={"/blog"} className="font-bold cursor-pointer border-b-2"> here</Link>.
         </p>
 
         <hr className="mt-10"></hr>
@@ -29,7 +29,7 @@ export default function About() {
               <span className="font-bold cursor-pointer text-underline-animation duration-300">STEM of Tomorrow</span>: September 2022 - December 2022
             </a>
             <ul className="list-disc list-inside">
-              <li className="mt-2">Tutored Group of 5 student helping them hone programming skills in python</li>
+              <li className="mt-2">Tutored Group of 5 students, helping them hone programming skills in Python</li>
             </ul>
           </li>
 
@@ -41,7 +41,6 @@ export default function About() {
               <li className="mt-2">Worked as a Camp Counsellor Volunteer</li>
             </ul>
           </li>
-
         </ul>
 
         <h2 className="text-4xl font-bold text-black mt-10">
