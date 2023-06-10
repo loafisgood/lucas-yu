@@ -1,6 +1,6 @@
 import fs from "fs";
 import matter from "gray-matter";
-import getProjectPostMetadata from "../../components/getPostMetadata";
+import getProjectPostMetadata from "../../components/getProjectPostMetaData";
 import Link from "next/link";
 import Markdown from "markdown-to-jsx";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

@@ -38,7 +38,7 @@ const PostPage = (props: any) => {
           ))}
           <hr className="my-2"></hr>
 
-          <Image src={post.data.img} className="mx-auto shadow-xl my-4" style={{ width: "100%" }} alt="post image" />
+          <Image src={post.data.img} className="mx-auto shadow-xl my-4" width={800} height={400} alt="post image" />
           <p className="text-black  text-base text-bold mt-1">{post.data.caption}</p>
           <hr className="my-2"></hr>
         </div>
