@@ -3,8 +3,14 @@ import matter from "gray-matter";
 import getProjectPostMetadata from "../../components/getProjectPostMetaData";
 import Link from "next/link";
 import Markdown from "markdown-to-jsx";
+import { faMedal} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMedal } from '@fortawesome/free-solid-svg-icons'
+import
+{
+    faInstagram,
+    faLinkedin,
+    faGithub,
+} from '@fortawesome/free-brands-svg-icons'
 
 const getPostContent = (slug: string) => {
   const folder = `projectposts/`;
@@ -35,19 +41,31 @@ const PostProjectPage = (props: any) => {
           <h1 className="text-5xl text-black font-bold">{post.data.title}</h1>
           <p className="text-slate-600 mt-1">{post.data.subtitle}</p>
         </div>
+        
+        
         {post.data.tags.map((tag: string, index: number) => (
           <span key={index} className="inline-block bg-gray-800 -my-10 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2">
             {tag}
           </span>
         ))}
-        <hr className="my-4"></hr>
+
+
+        <div className="text-slate-700 font-bold hover:text-slate-900 duration-300 mt-4 border-b-2" style={{color : "#404040"}}>
+          <FontAwesomeIcon icon={faGithub} className="text-2xl"/>
+          <a href = {post.data.github} target="_blank" rel="noopener noreferrer"> Github</a>
+        </div>
       </div>
 
       <article className="prose">
         <Markdown className={"markdown"}>
             {post.content}
         </Markdown>
-    </article>
+     </article>
+      <hr className="my-4"></hr>
+      <h1 className="text-2xl font-bold">Other Projects</h1>
+      <Link href="/projects">
+        <p className="text-slate-700 hover:text-slate-900 duration-300 mb-8">← Back to Projects</p>
+      </Link>
     </div>
 
   );
