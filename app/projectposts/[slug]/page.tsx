@@ -33,7 +33,7 @@ const PostProjectPage = (props: any) => {
   const slug = props.params.slug;
   const post = getPostContent(slug);
   return (
-    <div className="w-3/4 mx-auto align-center text-lg mb-12" style={{color : "#404040"}}>
+    <div className="xl:w-3/4 mx-auto align-center text-lg mb-12" style={{color : "#404040"}}>
       <div className="mt-20">
         <div className="my-4 text-left">
           {post.data.award === true ? <div> <p className="text-xl font-semibold text-slate-600">  {post.data.awardWon} </p>  <hr className="my-4"/> </div>: null}

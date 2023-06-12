@@ -25,7 +25,7 @@ const PostPage = (props: any) => {
   const post = getPostContent(slug);
 
   return (
-    <div className="w-3/4 mx-auto align-center text-lg mb-12" style={{ color: "#404040" }}>
+    <div className="xl:w-3/4 mx-auto align-center text-lg mb-12" style={{ color: "#404040" }}>
       <div>
         <div className="my-12 text-left">
           <h1 className={`text-4xl font-bold`}>{post.data.title}</h1>

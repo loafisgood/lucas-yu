@@ -6,6 +6,4 @@ export interface PostMetadata {
   img: string;
   tags: string[];
   caption: string;
-
- 
 }
