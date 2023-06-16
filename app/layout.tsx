@@ -17,15 +17,15 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-white">
         <div className="flex min-h-screen">
-          <div className="bg-white w-3/12"></div>
-          <div className="bg-white w-6/12">
+          <div className="bg-white md:w-3/12 w-1/12"></div>
+          <div className="bg-white md:w-6/12 w-10/12">
             <Header />
             <Providers>
               <div className="flex flex-col min-h-screen">{children}</div>
             </Providers>
             <Footer />
           </div>
-          <div className="bg-white w-3/12"></div>
+          <div className="bg-white md:w-3/12 w-1/12"></div>
         </div>
       </body>
     </html>

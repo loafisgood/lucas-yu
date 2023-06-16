@@ -36,7 +36,7 @@ const Home  = () => {
       <motion.div exit={{ opacity:0 }} initial={{ opacity:0 }} animate={{ opacity:1 }} className='flex flex-col justify-center items-center -mb-24 -mt-48'>
         <div className="flex flex-col">
           <motion.div initial={{scale : 1 }}>
-            <span className="text-6xl md:text-8xl font-bold cursor-pointer hover:text-slate-900 duration-300">
+            <span className="text-6xl xs:text-7xl md:text-8xl font-bold cursor-pointer hover:text-slate-900 duration-300">
               Lucas Yu
             </span>
             <p className="text-gray-700 text-xl my-4">
