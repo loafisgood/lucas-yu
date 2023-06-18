@@ -32,33 +32,31 @@ const Home  = () => {
 
 
   return (
-    <div className="bg-white min-h-screen overflow-hidden flex flex-col text-center align-center justify-center -mt-100">
+    <div className="bg-white min-h-screen overflow-hidden flex flex-col text-center align-center justify-center mt-14">
       <motion.div exit={{ opacity:0 }} initial={{ opacity:0 }} animate={{ opacity:1 }} className='flex flex-col justify-center items-center -mb-24 -mt-48'>
         <div className="flex flex-col">
           <motion.div initial={{scale : 1 }}>
-            <span className="text-6xl xs:text-7xl md:text-8xl font-bold cursor-pointer hover:text-slate-900 duration-300">
+            <span className="text-8xl xs:text-7xl lg:text-8xl font-bold cursor-pointer hover:text-slate-900 duration-300">
               Lucas Yu
             </span>
             <p className="text-gray-700 text-xl my-4">
               Hey, learn more about me or contact me below!
             </p>
-            
           </motion.div>
           <div className=" text-lg my-2">
             <div className="flex justify-center flex-row items-center gap-8 mt-4">
               <Link href="/about">
-                <span className="text-xl md:text-3xl font-bold cursor-pointer hover:text-slate-800 duration-500">
+                <span className="text-2xl md:text-3xl font-bold cursor-pointer hover:text-slate-800 duration-500">
                   <span className="text-underline-animation">About me</span>
                 </span>
               </Link>
-            
               <Link href="/contact">
-                <span className="text-xl md:text-3xl font-bold cursor-pointer hover:text-slate-800 duration-500">
+                <span className="text-2xl md:text-3xl font-bold cursor-pointer hover:text-slate-800 duration-500">
                   <span className="text-underline-animation">Contact Me</span>
                 </span>
               </Link>
             </div>
-            <div className={`yinyang justify-center align-center text-center ml-32 mt-4`}></div>
+            <div className={`yinyang justify-center align-center text-center ml-24 mt-5`}></div>
           </div> 
         </div>
       </motion.div>
