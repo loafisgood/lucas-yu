@@ -66,7 +66,7 @@ export default function About() {
           Outside of academics
         </h2>
         <p className="mt-6">
-          Outside of my academic life, here's what I'm exploring: 
+          Outside of my academic life, here&apos;s what I&apos;m exploring: 
         </p>
           <div className="ml-6">
             <ul className="list-disc list-inside">
