@@ -4,7 +4,7 @@ subtitle: "A College and University Aggregator"
 award: true
 awardWon: "Best Beginner Award for NHacks 2022"
 github: "https://github.com/stevehan12138/LexHack2022"
-tags: ["Chakra UI", "React JS"]
+tags: ["Material UI", "React JS"]
 img: "/CUThere.png"
 ---
 

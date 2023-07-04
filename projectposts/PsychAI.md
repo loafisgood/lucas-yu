@@ -3,7 +3,7 @@ title: "Psych AI"
 subtitle: "Mental Health AI Chatbot"
 date: "2023-6-5"
 github: "https://github.com/loafisgood/PsychAI"
-tags: ["Chakra UI", "React JS"]
+tags: ["Chakra UI", "React JS", "Express.js", "Node.js"]
 img: "/psychai.png"
 ---
 

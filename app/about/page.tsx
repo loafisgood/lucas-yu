@@ -15,11 +15,11 @@ export default function About() {
             
           </p>
           <p className="mt-4">
-            I also love making projects that automate tasks in my life because it gives them purpose outside of just being a token for my portfolio. 
-            I&apos;m currently working on a few projects, including a Spotify tool project that uses the Spotify API to do things such as aggregate temporary generated playlists to be saved.
+            I also love making projects that automate tasks in my life because it gives them purpose outside of being a token for my portfolio. 
+            For example, I&apos;m currently working on a few automative projects, including a Spotify tool project that uses the Spotify API to do things such as aggregate temporary generated playlists to be saved.
           </p>
           <p className="mt-4">
-            Sometimes I write stuff that I find interesting, check out some of the things I write about by clicking <Link href={"/blog"} className="font-bold cursor-pointer border-b-2"> here</Link>.
+            Sometimes I write stuff that I find interesting which you can check out by clicking <Link href={"/blog"} className="font-bold cursor-pointer border-b-2"> here</Link>.
           </p>
         </div>
 

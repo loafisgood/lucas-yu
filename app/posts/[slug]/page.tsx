@@ -4,6 +4,7 @@ import getPostMetadata from "../../components/getPostMetadata";
 import Link from "next/link";
 import Markdown from "markdown-to-jsx";
 import Image from "next/image";
+import { useRouter } from 'next/router';
 
 const getPostContent = (slug: string) => {
   const folder = "posts/";
@@ -23,6 +24,7 @@ export const generateStaticParams = async () => {
 const PostPage = (props: any) => {
   const slug = props.params.slug;
   const post = getPostContent(slug);
+  
 
   return (
     <div className="xl:w-3/4 mx-auto align-center text-lg mb-12" style={{ color: "#404040" }}>
@@ -53,23 +55,23 @@ const PostPage = (props: any) => {
         <Link href="/blog">
           <p className="text-slate-700 hover:text-slate-900 duration-300 mb-8">← Back to posts</p>
         </Link>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {getPostMetadata().map((post) => (
-            <Link href={`/posts/${post.slug}`} key={post.slug}>
-              <div key={post.slug} className="bg-gray-800 rounded-lg shadow-lg p-4 cursor-pointer hover:bg-gray-700 duration-300">
-                <h1 className="text-xl font-semibold text-slate-300">{post.title}</h1>
-                <p className="text-slate-400">{post.subtitle}</p>
-                <p className="text-slate-400">{post.date}</p>
+        {getPostMetadata().map((post) => (
+          <Link href={`/posts/${post.slug}`} key={post.slug}>
+            <div key={post.slug} className="bg-gray-800 rounded-lg shadow-lg p-4 cursor-pointer hover:bg-gray-700 duration-300 h-64">
+              <h1 className="text-xl font-semibold text-slate-300">{post.title}</h1>
+              <p className="text-slate-400 line-clamp-3">{post.subtitle}</p>
+              <div className="flex flex-wrap mt-2">
                 {post.tags && post.tags.map((tag: string) => (
-                  <span className="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mt-2" key={tag}>
+                  <span className="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mb-2" key={tag}>
                     {tag}
                   </span>
                 ))}
               </div>
-            </Link>
-          ))}
-        </div>
+            </div>
+          </Link>
+        ))}
+      </div>
       </div>
     </div>
   );
