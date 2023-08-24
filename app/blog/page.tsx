@@ -25,7 +25,7 @@ const Blog = () => {
           <h2 className="text-lg text-slate-500 mt-2"> Whatever I feel like writing down will be here</h2>
         </div>
       </div>
-      <div className="grid grid-cols-1 3xl:grid-cols-2 gap-4 mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10 mb-10">
         {postsSorted.map((post) => post)}
       </div>
     </div>

@@ -126,4 +126,10 @@ from {
   
   
   
-  
+.sticky-footer {
+	position: sticky;
+	bottom: 0;
+	padding: 1rem;
+	background-color: white;
+	text-align: center;
+}

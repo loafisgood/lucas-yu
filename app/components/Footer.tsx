@@ -13,7 +13,7 @@ import
 
 const Footer = () => {
     return (
-        <footer className="foote text-black">
+        <footer className="footer text-black">
             <div className="flex flex-row justify-center">
                 <motion.a href="https://github.com/loafisgood" target="_blank" rel="noopener noreferrer" className="mr-2" whileFocus={{ scale: 1 }} 
                 whileHover={{ scale: 1.1 }} whileTap = {{ scale: 0.9 }}>
