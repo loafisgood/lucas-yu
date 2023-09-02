@@ -56,11 +56,11 @@ const Home = () => {
 
 
   return (
-    <div className="bg-white min-h-screen overflow-hidden flex flex-col text-center align-center justify-center mt-14">
+    <div className="bg-white min-h-screen overflow-hidden flex flex-col text-center align-center justify-center mt-14 text-black">
       <motion.div exit={{ opacity: 0 }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} className='flex flex-col justify-center items-center  mt-48'>
         <div className="flex flex-col">
           <motion.div initial={{ scale: 1 }}>
-            <span className="text-8xl xs:text-7xl lg:text-8xl font-bold cursor-pointer hover:text-slate-900 duration-300">
+            <span className="text-8xl xs:text-7xl lg:text-8xl font-bold cursor-pointer hover:text-slate-800 duration-300">
               Lucas Yu
             </span>
             <p className="text-gray-700 text-xl my-4">

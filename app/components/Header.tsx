@@ -39,7 +39,7 @@ const Header = () => {
   };
 
   return (
-    <div className="header min-w-fit overflow-hidden mb-2">
+    <div className="header min-w-fit overflow-hidden mb-2 text-black">
       <div className="flex justify-between items-center ">
         <div className="flex items-center">
           <Link href="/">
