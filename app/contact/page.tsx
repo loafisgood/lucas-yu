@@ -28,7 +28,7 @@ const Contact = () => {
     }
   };
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen border-solid border-black bg-white">
+    <div className="flex flex-col items-center justify-center min-h-screen border-solid border-black text-black bg-white">
       <h1 className="text-4xl font-bold mb-6">Contact Me</h1>
       <p className="mb-6 text-center w-1/2">If you want to contact me, please fill out the form below! If you can&apos;t reach me through this form, My e-mail is
         <span className="font-bold border-b-2 cursor-pointer"> lucas.loafisgood@gmail.com</span></p>

@@ -18,7 +18,7 @@ const Blog = () => {
 
   return (
     <div >
-      <div className="mt-20">
+      <div className="mt-20 text-black">
         <div className="justify-center">
           <h1 className="text-5xl font-bold">Blog</h1>
           <hr className="mt-4"></hr>
