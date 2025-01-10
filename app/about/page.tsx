@@ -8,14 +8,13 @@ export default function About() {
       <div className="mt-7 text-lg text-left">
         <div>
           <p>
-            I&apos;m a grade 11 student from Toronto, Canada.
+            I&apos;m a first year engineering student at Western University. 
             I&apos;m interested in software development, machine learning, and game development.
             I participate in hackathons with friends and have won a few awards for my projects listed
             <Link href={"/projects"} className="font-bold cursor-pointer border-b-2"> here</Link>.<br></br><br></br>
             Another interest I&apos;ve recently been passionate about is Cybersecurity/Networking. 
-            Testing out tools on VMs with different linux distros such as ParrotOS and Kali Linux has been a lot of fun.
+            Testing out tools on VMs with different security linux distributions which has been a lot of fun.
             Although I am an amateur, I&apos;ve been trying to participate in beginner CTFs which are challenging but I have learnt a lot from them.
-            
           </p>
           <p className="mt-4">
             I also love making projects that automate tasks in my life because it gives them purpose outside of being a token. 
@@ -57,9 +56,17 @@ export default function About() {
         <ul className="ml-6 mt-6">
           <li className="mt-3">
             <a href="https://www.earlhaig.ca/" target="_blank" rel="noreferrer">
-              <span className="font-bold cursor-pointer border-b-2 text-underline-animation duration-300">Earl Haig Secondary School</span>: 2020 - Present
+              <span className="font-bold cursor-pointer border-b-2 text-underline-animation duration-300">Earl Haig Secondary School</span>: 2020 - 2024
               <ul className="list-disc list-inside">
-                <li className="mt-2 text-slate-600 font-semibold">Graduating 2024</li>
+                <li className="mt-2 text-slate-600 font-semibold">Graduated 2024</li>
+            </ul>
+            </a>
+          </li>
+          <li className="mt-3">
+            <a href="https://www.earlhaig.ca/" target="_blank" rel="noreferrer">
+              <span className="font-bold cursor-pointer border-b-2 text-underline-animation duration-300">Western University </span>: 2024 - present
+              <ul className="list-disc list-inside">
+                <li className="mt-2 text-slate-600 font-semibold">Graduating 2029</li>
             </ul>
             </a>
           </li>
@@ -74,21 +81,11 @@ export default function About() {
         </p>
           <div className="ml-6">
             <ul className="list-disc list-inside text-slate-600 font-semibold">
-                <li className="mt-2">Skateboarding - I can basically do a heelflip</li>
-                <li className="mt-2">Guitar + Bass - Currently in a band</li>
-                <li className="mt-2">Writing       - Trying to write small stories</li>
+                <li className="mt-2">Skateboarding </li>
+                <li className="mt-2">Guitar + Bass </li>
+                <li className="mt-2">Songwriting    </li>
               </ul>
             <div className="flex flex-col text-left align-center">
-              <p className="mt-4 -ml-6">
-                Music I have recently been listening to:
-              </p>
-              <ul className="list-disc list-inside text-slate-600 font-semibold">
-                <li className="mt-2">The Cure</li>
-                <li className="mt-2">Have a Nice Life</li>
-                <li className="mt-2">The Smiths</li>
-                <li className="mt-2">The Pixies</li>
-
-              </ul>
           </div>
         </div>
       </div>
