@@ -17,7 +17,7 @@ export default function About() {
             Although I am an amateur, I&apos;ve been trying to participate in beginner CTFs which are challenging but I have learnt a lot from them.
           </p>
           <p className="mt-4">
-            I also love making projects that automate tasks in my life because it gives them purpose outside of being a token. 
+            I also love making projects that automate tasks in my life because it gives them purpose for everyday practical use. 
             For example, I&apos;m currently working on a few automative projects, including a Spotify tool project that uses the Spotify API to do things such as aggregate temporary generated playlists to be saved.
             
           </p>
