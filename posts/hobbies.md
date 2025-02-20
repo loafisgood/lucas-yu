@@ -8,4 +8,4 @@ caption: "Nam June Paik, Rehabilitation of Genghis Khan 1993"
 ---
 
 
-Idk. Focus on the little things or something.
+Focus on the little things or something.
