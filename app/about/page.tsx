@@ -28,7 +28,7 @@ export default function About() {
         <ul className="ml-6 mt-6">
           <li className="mt-3">
             <a href="https://www.stemoftomorrow.org/" target="_blank" rel="noreferrer">
-              <span className="font-bold cursor-pointer border-b-2 text-underline-animation duration-300">STEM of Tomorrow</span>: September 2022 - December 2022
+              <span className="font-bold cursor-pointer border-b-2 text-underline-animation duration-300">STEM of Tomorrow</span>: January 2023 - September 2023
             </a>
             <ul className="list-disc list-inside">
               <li className="mt-2 text-slate-600 font-semibold">Tutored Group of 5 students, helping them hone programming skills in Python</li>
@@ -58,7 +58,7 @@ export default function About() {
             </a>
           </li>
           <li className="mt-3">
-            <a href="https://www.earlhaig.ca/" target="_blank" rel="noreferrer">
+            <a href="https://www.uwo.ca/index.html" target="_blank" rel="noreferrer">
               <span className="font-bold cursor-pointer border-b-2 text-underline-animation duration-300">Western University </span>: 2024 - present
               <ul className="list-disc list-inside">
                 <li className="mt-2 text-slate-600 font-semibold">Graduating 2029</li>
