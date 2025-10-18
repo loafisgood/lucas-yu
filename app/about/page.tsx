@@ -9,7 +9,7 @@ export default function About() {
         <div>
           <p>
             I&apos;m a second year electrical engineering student at Western University. 
-            I&apos;m interested in hardware + software development, machine learning, and game development.
+            I&apos;m interested in hardware/software development, machine learning, and game development.
             I participate in hackathons with friends and have won a few awards for my projects listed
             <Link href={"/projects"} className="font-bold cursor-pointer border-b-2"> here</Link>.<br></br><br></br>
             Another interest I&apos;ve recently been passionate about is Cybersecurity/Networking. 
