@@ -61,7 +61,7 @@ export default function About() {
             <a href="https://www.uwo.ca/index.html" target="_blank" rel="noreferrer">
               <span className="font-bold cursor-pointer border-b-2 text-underline-animation duration-300">Western University </span>: 2024 - present
               <ul className="list-disc list-inside">
-                <li className="mt-2 text-slate-600 font-semibold">Graduating 2029</li>
+                <li className="mt-2 text-slate-600 font-semibold">Graduating 2028</li>
             </ul>
             </a>
           </li>
