@@ -8,18 +8,13 @@ export default function About() {
       <div className="mt-7 text-lg text-left">
         <div>
           <p>
-            I&apos;m a first year engineering student at Western University. 
-            I&apos;m interested in software development, machine learning, and game development.
+            I&apos;m a second year electrical engineering student at Western University. 
+            I&apos;m interested in hardware + software development, machine learning, and game development.
             I participate in hackathons with friends and have won a few awards for my projects listed
             <Link href={"/projects"} className="font-bold cursor-pointer border-b-2"> here</Link>.<br></br><br></br>
             Another interest I&apos;ve recently been passionate about is Cybersecurity/Networking. 
-            Testing out tools on VMs with different security linux distributions which has been a lot of fun.
-            Although I am an amateur, I&apos;ve been trying to participate in beginner CTFs which are challenging but I have learnt a lot from them.
-          </p>
-          <p className="mt-4">
-            I also love making projects that automate tasks in my life because it gives them purpose for everyday practical use. 
-            For example, I&apos;m currently working on a few automative projects, including a Spotify tool project that uses the Spotify API to do things such as aggregate temporary generated playlists to be saved.
-            
+            Testing out tools on VMs with security linux distributions which has been a lot of fun.
+            Although I am still learning, I&apos;ve been trying to participate in beginner CTFs which are challenging but have learnt a lot from them.
           </p>
           <p className="mt-4">
             Sometimes I write stuff that I find interesting which you can check out by clicking <Link href={"/blog"} className="font-bold cursor-pointer border-b-2"> here</Link>.
